@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аманбай Мирас - Контакты</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Черный цвет фона страницы */
+            color: #fff; /* Белый цвет текста */
+        }
+
+        header {
+            background-color: #000; /* Цвет фона заголовка */
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            border-bottom: 2px solid #333; /* Разделительная полоса внизу заголовка */
+        }
+
+        #initials {
+            position: absolute;
+            left: 20px; /* Выравнивание по левому краю */
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            animation: colorChange 5s infinite; /* Анимация цвета */
+        }
+
+        @keyframes colorChange {
+            0% { color: #3498db; }
+            25% { color: #2ecc71; }
+            50% { color: #e74c3c; }
+            75% { color: #f39c12; }
+            100% { color: #3498db; }
+        }
+
+        #menu {
+            position: absolute;
+            right: 20px; /* Выравнивание по правому краю */
+            bottom: 20px; /* Выравнивание по нижнему краю */
+            transform: translateY(-50%);
+            display: flex;
+            align-items: center;
+        }
+
+        #menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px; /* Отступ между кнопками */
+            font-size: 18px;
+        }
+
+        #title {
+            color: #fff; /* Белый цвет для Контактов */
+            font-size: 36px; /* Увеличенный размер шрифта */
+            margin-bottom: 20px; /* Отступ снизу */
+        }
+
+        #content {
+            text-align: center;
+            margin: 50px 0; /* Уменьшенный отступ сверху и снизу */
+        }
+
+        .contact-link {
+            background-color: #333; /* Цвет фона блока с ссылкой */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Тень блока */
+        }
+
+        .contact-link a {
+            display: block;
+            color: #3498db; /* Цвет ссылок */
+            text-decoration: none;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="initials">Аманбай Мирас</div>
+        <div id="menu">
+            <a href="index.html">Главная</a>
+        </div>
+        <div id="title">Контакты</div>
+    </header>
+
+    <div id="content">
+        <div class="contact-link">
+            <a href="https://github.com/Miras12333" target="_blank">GitHub</a>
+        </div>
+        <div class="contact-link">
+            <a href="https://www.linkedin.com/in/miras-amanbay-61771a2aa/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="contact-link">
+            <a href="https://web.telegram.org/k/#@r2mur2" target="_blank">Telegram</a>
+        </div>
+        <!-- Дополнительная информация и ссылки могут быть добавлены здесь -->
+    </div>
+
+</body>
+</html>
